@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage('Build Node Docker Image'){
             steps{
-                bat "docker build . -t yyang/node-app:${IMAGE_TAG}"
+                bat 'docker build . -t yyang/node-app:${IMAGE_TAG}'
             }
         }
     }
