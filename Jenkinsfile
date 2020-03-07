@@ -7,13 +7,13 @@ pipeline {
         stage('Build Node Docker Image'){
             steps{
                 echo 'Building the node app docker image ...'
-                bat 'docker build . -t yyang/node-app'
+                bat "buildNodeAppImage.bat"
             }
         }
         stage('Launch Node Docker Containers'){
             steps{
                 echo 'Launching the node app docker containers ...'
-                bat 'startNodeApps.bat ${CONTAINER_COUNT}'
+                bat "startNodeApps.bat ${CONTAINER_COUNT}"
             }
         }
     }
