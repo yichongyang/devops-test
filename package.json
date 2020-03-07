@@ -1,0 +1,13 @@
+{
+  "name": "node_docker_app",
+  "version": "1.0.0",
+  "description": "Node.js app running in Docker",
+  "author": "Yichong Yang <yichong.yang.st@gmail.com>",
+  "main": "myTestServer.js",
+  "scripts": {
+    "start": "node myTestServer.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
