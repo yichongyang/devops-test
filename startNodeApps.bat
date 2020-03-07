@@ -6,8 +6,6 @@ if not "%1" == "" (
   set count=%1
 )
 
-rem docker rm -f $(docker ps -a -q --filter="name=yyang-node-app")
-
 set /a number=10000+%count%
 
 for /l %%x in (10001, 1, %number%) do (
