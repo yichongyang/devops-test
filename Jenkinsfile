@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment{
-        CONTAINER_COUNT = 3
+        CONTAINER_COUNT = 5
     }
     stages{
         stage('Build Node Docker Image'){
@@ -18,10 +18,3 @@ pipeline {
         }
     }
 }
-
-/*
-def getImageTag(){
-    def imageTag = bat script: 'git rev-parse HEAD', returnStdout: true
-    return imageTag
-}
-*/
