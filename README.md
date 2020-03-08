@@ -9,16 +9,19 @@ These are some basic sample files used to test the CI/CD pipeline for containeri
 
 ## Sample Files
 
-1) Node application files: 
-   a. myTestServer.js
-   b. package.json
-2) Building Node application image:
-   a. Dockerfile	
-3) Jenkins CI/CD Pipeline:
-   a. Jenkinsfile
-4) Scripts execution staged in Jenkins CI/CD:
-   a. buildNodeAppImage.bat
-   b. startNodeApps.bat   
+1) Node application files:</br>
+   a. myTestServer.js</br> 
+   b. package.json </br>
+   
+2) Building Node application image:</br>
+   a. Dockerfile	</br>
+   
+3) Jenkins CI/CD Pipeline:</br>
+   a. Jenkinsfile</br>
+   
+4) Scripts execution staged in Jenkins CI/CD:</br>
+   a. buildNodeAppImage.bat</br>
+   b. startNodeApps.bat</br>
 
 ## Launch and Configure Jenkins Pipeline
 
