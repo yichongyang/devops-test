@@ -3,25 +3,22 @@
 These are some basic sample files used to test the CI/CD pipeline for containerized applications on a Windows localhost.
 
 ## Installation
-
-Download and Install [Docker on Windows] (https://docs.docker.com/docker-for-windows/install/)
-Download and Install [Jenkins on Windows] (https://jenkins.io/download/thank-you-downloading-windows-installer-stable)
+ 
+1) Download and Install Docker on Windows 10: https://docs.docker.com/docker-for-windows/install/
+2) Download and Install Jenkins on Windows 10: https://jenkins.io/download/thank-you-downloading-windows-installer-stable
 
 ## Sample Files
 
 1) Node application files: 
-   myTestServer.js
-   package.json
-
+   a. myTestServer.js
+   b. package.json
 2) Building Node application image:
-   Dockerfile	
-
+   a. Dockerfile	
 3) Jenkins CI/CD Pipeline:
-   Jenkinsfile
-
+   a. Jenkinsfile
 4) Scripts execution staged in Jenkins CI/CD:
-   buildNodeAppImage.bat
-   startNodeApps.bat   
+   a. buildNodeAppImage.bat
+   b. startNodeApps.bat   
 
 ## Launch and Configure Jenkins Pipeline
 
