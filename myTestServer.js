@@ -1,16 +1,18 @@
+// Use the strict mode
 'use strict';
 
+// Get express framework for web application
 const express = require('express');
 
-// Constants
+// Constants for port and host
 const PORT = 9000;
 const HOST = '0.0.0.0';
 
-// App
+// Application
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Welcome to Yichong\'s world 2!');
+  res.send('Welcome to Yichong\'s world!');
 });
 
 app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+console.log(`Node app running on http://${HOST}:${PORT}`);
