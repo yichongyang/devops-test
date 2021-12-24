@@ -26,7 +26,7 @@ These are some basic sample files used to test the CI/CD pipeline for containeri
 ## Launch and Configure Jenkins Pipeline
 
 1) Use or clone this git repo
-2) Launch Jenkins on the Windows localhost 
+2) Launch Jenkins on the Windows localhost (java -jar jenkins.war)
 3) Create a Jenkins pipeline job that polls SCM with the git repo and a branch
 4) Configure the Poll SCM schedule (e.g., ***** for every minute)
  
